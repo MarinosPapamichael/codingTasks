@@ -1,6 +1,17 @@
 # CSV Data Filter and Sort
 
-This repository contains a Python script designed to read, filter, and sort CSV data. The script allows users to interactively select columns for filtering and sorting, apply filters to numerical, date, and categorical data, and output the results to a new CSV file.
+This repository contains a Python script designed to read, filter, and sort CSV data. This script is designed to handle CSV data efficiently by allowing users to filter and sort the data based on specific criteria. It reads a CSV file into a list of dictionaries, providing the flexibility to filter numerical, date, or categorical columns and sort the data accordingly. Learning to manipulate CSV data is crucial for data analysis and processing tasks, as CSV is a common format for storing and exchanging data. Mastering these skills enhances your ability to handle real-world data effectively.
+
+## Table of Contents
+
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Functions](#functions)
+- [Example](#example)
+- [Contributing](#contributing)
+- [Author](#author)
 
 ## Features
 
@@ -45,6 +56,7 @@ This repository contains a Python script designed to read, filter, and sort CSV 
 - The script will output the filtered and sorted data to the specified file.
 
 ## Functions
+
 **'read_csv_to_dict(file_path)'**
 Reads a CSV file into a list of dictionaries.
 
